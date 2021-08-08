@@ -13,9 +13,9 @@
         <h1 class="name">David Jay</h1>
         <nav>
             <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact me</a></li>
             </ul>
         </nav>
     </header>
@@ -25,20 +25,34 @@
             <img src="./Assets/20210807_183939.jpg" alt="man smiling" width="400px">
         </figure> 
         <article>
+            <a name="about"></a>
             <h2>Hello,</h2>
-            <p>My name is David Jay and this is a portfolio of my work. 
-                <br>
+            <p>My name is David Jay and I am a Full-Stack Web Developer.
+                <br><br>
+              This is a portfolio of my work. 
+                <br><br>
               If you have any questions, please feel free to contact by any method listed at the bottom of the page.
-                <br> 
+                <br><br>
               Thank you for having a look and I hope you have a great rest of your day.</p>
         </article>
-        <section>
-
+        <section class="row">
+            <a name="work"></a>
+            <div class="column">
+                <div id="bigCard">First Project</div>               
+            </div>
+            <div class="column">
+                <div class="card">Second Project</div>               
+            </div>
+            <div class="column">
+                <div class="card">Third Project</div>               
+            </div>
         </section>
         <aside></aside>
     </main>
 
     <footer>
+        <a name="contact"></a>
+        <h2>Contact Info</h2>
         <a href="http://">by phone: (210) 209-0264</a>
         <a href="http://">by email: Djay8400@gmail.com</a>
     </footer>

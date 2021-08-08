@@ -1,3 +1,7 @@
+body {
+    background-image: url(./coding\ screen.jfif);
+}
+
 header {
     background-color: rgba(0, 0, 0, 0.5);
     color: ivory;
@@ -6,6 +10,7 @@ header {
 
 .name {
     font-size: 100px;
+    
 }
 
 nav {
@@ -15,15 +20,72 @@ nav {
 nav li {
     display: inline;
     padding: 20px 20px;
+    font-size: 50px;
+    font-family: monospace;
 }
+
+nav a {
+    color: ivory;
+}    
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
 }
 
 .figure {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
+}
+
+article {
+    border: 1px solid white;
+    color: ivory;
+    background-color: grey;
+    text-align: center;
+    padding: 30px;
+    margin: 50px;
+    margin-bottom: 60px;
+}
+
+.row div {
+    display: inline;
+    font-size: 50px;
+    font-family: monospace;
+    color: ivory;
+    border: 5px solid ivory;
+    background-color: grey;
+    padding: 20px 20px;
+    margin: 80px 80px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#bigCard {
+    min-height: 800px;
+}
+
+footer, footer a {
+    text-align: center;
+    padding: 50px;
+    color: ivory;
+}
+
+footer h2 {
+    font-size: 18pt;
+}
+
+@media screen and (max-width: 992px) {
+    .column div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column div {
+        width: 100%;
+    }
 }
