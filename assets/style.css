@@ -22,11 +22,16 @@ nav li {
     padding: 20px 20px;
     font-size: 50px;
     font-family: monospace;
+    transition: color .5s;
 }
 
 nav a {
     color: ivory;
-}    
+} 
+
+.nav:hover {
+    color: cornflowerblue;
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -89,3 +94,16 @@ footer h2 {
         width: 100%;
     }
 }
+
+.gitLinked {
+    color: blue;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 20px;
+    transition: color .5s;
+}
+
+.gitLinked:hover {
+    color: cornflowerblue;
+}
+
