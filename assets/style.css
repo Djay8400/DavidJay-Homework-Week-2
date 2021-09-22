@@ -66,6 +66,7 @@ article {
 
 #bigCard {
     min-height: 800px;
+    border-radius: 7px;
 }
 
 footer, footer a {
@@ -74,8 +75,8 @@ footer, footer a {
     color: ivory;
 }
 
-footer h2 {
-    font-size: 18pt;
+footer {
+    font-size: 25pt;
 }
 
 @media screen and (max-width: 992px) {
@@ -104,4 +105,13 @@ footer h2 {
 
 .project {
     max-width: 100%;
+}
+
+#bigCard:hover, .card:hover {
+    box-shadow: 0 0 40px 20px rgb(228, 27, 235);
+    color: rgb(228, 27, 235);
+}
+
+.contact {
+    margin: 50px;
 }
